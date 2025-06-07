@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github API Project</title>
+    <style>
+      body {
+        display: flex;
+        align-items: flex-start;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .box {
+        padding: 0px 15px 0px 15px;
+        border: 1px solid #888;
+        margin-bottom: 15px;
+      }
+      #info .label {
+        font-weight: bold;
+        display: block;
+      }
+      #info a {
+        text-decoration: none;
+      }
+      #info a:hover {
+        text-decoration: underline;
+      }
+      #key h1 {
+        font-size: 1.5em;
+      }
+      #key .color {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0px 10px 0px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="info" class="box">
+        <p class="repo">
+          <span class="label">Repository</span>
+          <span class="value"><a target="_blank"></a></span>
+        </p>
+        <p class="license">
+          <span class="label">License</span>
+          <span class="value"><a target="_blank"></a></span>
+        </p>
+        <p class="stars">
+          <span class="label">Stars</span>
+          <span class="value"><a target="_blank"></a></span>
+        </p>
+      </div>
+      <div id="key" class="box">
+        <h1>Key</h1>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
