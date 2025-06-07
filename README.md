@@ -12,7 +12,7 @@ This repository contains a series simple projects described in the book:
 
 
 # Project 1: [Pong](./Project_1_Game/10_Pong/)
-
+![Pong screenshot](./images/0_pong.png)
 ## Details
 - This project involves create a base HTML file containing an empty `<canvas>` element from which the JavaScript logic can insert game logic into.
 - I decided not complete with my follow through of this part of the book. I believe I was already able to obtain a general idea of the logic and workflow involved for using the HTML `<canvas>` tag to create a web-based game in JavaScript.
@@ -29,10 +29,10 @@ This repository contains a series simple projects described in the book:
 
 
 # Project 2: Introduction to D3
-
+![Introductory concepts screenshot](./images/1_intro_concepts.png)
 ## 2.1 [Introductory concepts](./Project_3_Data_Visualization/14_Introducing_the_D3_Library/intro/):
 ### Details
-- Basic introduction to HTML `<svg>` concepts such as but not limited to a combination of the following:
+- Contains basic introduction to HTML `<svg>` concepts such as but not limited to a combination of the following:
   - text
   - fill for colors
   - basic shapes
@@ -43,7 +43,9 @@ This repository contains a series simple projects described in the book:
 - Following along with the above ["How to run" instructions of Project 1: Pong](#project-1-pong) also works here.
 
 ## 2.2 [Data & animation](./Project_3_Data_Visualization/14_Introducing_the_D3_Library/data/):
+![Data & animation screenshot](./images/2_data.png)
 ### Details
+- In this project, random values are dynamically added to a JavaScript list. This list is visualized as circles of various sizes, and modifications to the list have an accompanying transition animation.
 - Continuation of the basic id ideas above with the addition of the following:
     - chain-linking functions in d3
     - animation using `transition()`
@@ -52,7 +54,9 @@ This repository contains a series simple projects described in the book:
 - Following along with the above ["How to run" instructions of Project 1: Pong](#project-1-pong) also works here.
 
 ## 2.3 [Live text input bar graph visualization](./Project_3_Data_Visualization/14_Introducing_the_D3_Library/barGraph/):
+![character frequency analyzer screenshot](./images/3_character_distribution.png)
 ### Details
+- This project, works by listening for user input and dynamicaly rendering the bar graph to visualize the distribution of characters based on user input.
 - Continuation of the basic id ideas above with the addition of the following:
     - Createing axes for plots in d3
     - Scaling
@@ -62,6 +66,7 @@ This repository contains a series simple projects described in the book:
 
 
 # Project 3: [Visualizing github search API](./Project_3_Data_Visualization/15_Visualizing_Search_From_Github_API/)
+![github search api visualization screenshot](./images/4_github_api.png)
 - This project is meant to be an interactive bar graph of popular Github projects using a sepcific query ("TypeScript" in this case). This project covers:
   - Calling an API and using the response as input data for D3.
   - Creating a more complete and interactive bar graph with annotations
@@ -75,7 +80,7 @@ This repository contains a series simple projects described in the book:
     - installation of the ESBuild package
     - running a server to server the `index.html`
   - Using [ESBuild](https://esbuild.github.io/) to transpile TypeScript to JavaScript and Bundling the D3 package into a single `.js` file referenced by the `index.html` file.
-- As with the [Pong project](#project-1-pong), I decided to not complete with my follow through of this part of the book, as I believe that I already attained the general idea it's trying to achieve.
+- As with the [Pong project](#project-1-pong), I decided to not complete with my follow through of this part of the book.
 
 ## How to run
 1. Install the [Deno runtime environment](https://deno.land/)
